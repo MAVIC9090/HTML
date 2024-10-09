@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #0c85f7e5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5em;
+            box-shadow: 0px 4px 2px -2px gray;
+        }
+
+        nav {
+            background-color: #d7ee55;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Colores para cada etiqueta */
+        #etiquetas, #html, #parrafos, #color, #imagen, #video, #gif, #formulario, #listas, #tablas {
+            color: #4b4b4b;
+        }
+
+        #etiquetas {
+            color: #9c27b0;
+        }
+
+        #parrafos {
+            color: #2196f3;
+        }
+
+        #color {
+            color: #e91e63;
+        }
+
+        #imagen {
+            color: #ff9800;
+        }
+
+        #video {
+            color: #4caf50;
+        }
+
+        #gif {
+            color: #673ab7;
+        }
+
+        #formulario {
+            color: #f44336;
+        }
+
+        #listas {
+            color: #3f51b5;
+        }
+
+        #tablas {
+            color: #009688;
+        }
+
+        /* Fondos diferentes para cada sección */
+        #html {
+            background-color: #e3f2fd;
+        }
+
+        #etiquetas {
+            background-color: #fce4ec;
+        }
+
+        #parrafos {
+            background-color: #fff8e1;
+        }
+
+        #color {
+            background-color: #f3e5f5;
+        }
+
+        #imagen {
+            background-color: #f9fbe7;
+        }
+
+        #video {
+            background-color: #e0f7fa;
+        }
+
+        #gif {
+            background-color: #f3e5f5;
+        }
+
+        #formulario {
+            background-color: #ffebee;
+        }
+
+        #listas {
+            background-color: #e8eaf6;
+        }
+
+        #tablas {
+            background-color: #e0f2f1;
+        }
+
+        h2 {
+            color: #8cbbc4;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+        img {
+            display: block;
+            margin: 10px 0;
+        }
+
+        video {
+            display: block;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* Animación */
+        header h1 {
+            animation: slideIn 1s forwards;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Estilo adicional para las tablas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #9378a0;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Guía Completa de HTML</h1>
+    </header>
+
+    <nav>
+        <a href="#html">¿Qué es HTML?</a>
+        <a href="#etiquetas">Etiquetas HTML</a>
+        <a href="#parrafos">Párrafos</a>
+        <a href="#color">Colores</a>
+        <a href="#imagen">Imágenes</a>
+        <a href="#video">Video</a>
+        <a href="#gif">GIFs</a>
+        <a href="#formulario">Formularios</a>
+        <a href="#listas">Listas</a>
+        <a href="#tablas">Tablas</a>
+    </nav>
+
+    <!-- Contenido de las secciones -->
+    <section id="html">
+        <h2>¿Qué es HTML?</h2>
+        <p>HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web. Utiliza etiquetas para estructurar y presentar contenido en la web.</p>
+    </section>
+
+    <section id="etiquetas">
+        <h2>Etiquetas HTML</h2>
+        <p>Las etiquetas en HTML son los elementos básicos que definen la estructura de una página web. Algunas de las más comunes incluyen:</p>
+        <ul>
+            <li><code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> - Títulos con diferentes niveles</li>
+            <li><code>&lt;p&gt;</code> - Párrafos</li>
+            <li><code>&lt;a&gt;</code> - Enlaces</li>
+            <li><code>&lt;img&gt;</code> - Imágenes</li>
+            <li><code>&lt;div&gt;</code> - División de bloques de contenido</li>
+        </ul>
+    </section>
+
+    <section id="parrafos">
+        <h2>Párrafos</h2>
+        <p>Los párrafos en HTML se crean usando la etiqueta <code>&lt;p&gt;</code>. Permiten organizar el contenido en bloques de texto.</p>
+        <p><code>&lt;p&gt;Este es un párrafo de ejemplo.&lt;/p&gt;</code></p>
+        <p>Este es un párrafo de ejemplo.</p>
+    </section>
+
+    <section id="color">
+        <h2>Colores</h2>
+        <p>En HTML, puedes modificar el color del texto y otros elementos usando la propiedad CSS <code>color</code>:</p>
+        <p style="color: red;">Este texto es rojo.</p>
+        <p style="color: blue;">Este texto es azul.</p>
+    </section>
+
+    <section id="imagen">
+        <h2>Imágenes</h2>
+        <p>Para insertar una imagen en HTML, utilizamos la etiqueta <code>&lt;img&gt;</code>. Ejemplo:</p>
+        <p><code>&lt;img src="https://via.placeholder.com/150" alt="Imagen de ejemplo"&gt;</code></p>
+        <img src="https://th.bing.com/th/id/OIP.lhsPfRfLHkS9eMWNVXQKgQHaCy?rs=1&pid=ImgDetMain" alt="Imagen de ejemplo">
+    </section>
+
+    <section id="video">
+        <h2>Video</h2>
+        <p>Para insertar videos, se utiliza la etiqueta <code>&lt;video&gt;</code>:</p>
+        <p><code>&lt;video controls&gt;&lt;source src="ruta/del/video.mp4" type="video/mp4"&gt;&lt;/video&gt;</code></p>
+        <video controls width="300">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </section>
+
+    <section id="gif">
+        <h2>GIFs</h2>
+        <p>Los GIFs se insertan como imágenes:</p>
+        <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" alt="GIF de ejemplo">
+    </section>
+
+    <section id="formulario">
+        <h2>Formularios</h2>
+        <p>Los formularios permiten la entrada de datos por parte del usuario. Ejemplo:</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section id="listas">
+        <h2>Listas</h2>
+        <p>Existen dos tipos principales de listas en HTML:</p>
+        <ul>
+            <li><code>&lt;ul&gt;</code> - Listas no ordenadas</li>
+            <li><code>&lt;ol&gt;</code> - Listas ordenadas</li>
+        </ul>
+    </section>
+
+    <section id="tablas">
+        <h2>Tablas</h2>
+        <p>Las tablas se crean con la etiqueta <code>&lt;table&gt;</code>. Ejemplo:</p>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>28</td>
+                <td>México</td>
+            </tr>
+            <tr>
+                <td>Pablo</td>
+                <td>35</td>
+                <td>Colombia</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>© 2024 Guía de HTML - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>
